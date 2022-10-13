@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-13T14:16:51 IST" name="Default suite" finished-at="2022-10-13T14:16:51 IST" duration-ms="97">
+  <suite started-at="2022-10-13T14:28:14 IST" name="Default suite" finished-at="2022-10-13T14:28:14 IST" duration-ms="90">
     <groups>
     </groups>
-    <test started-at="2022-10-13T14:16:51 IST" name="Default test" finished-at="2022-10-13T14:16:51 IST" duration-ms="97">
-      <class name="com.purna_data.testcases.purna_sample_test">
-        <test-method signature="sample()[pri:0, instance:com.purna_data.testcases.purna_sample_test@6771beb3]" started-at="2022-10-13T14:16:51 IST" name="sample" finished-at="2022-10-13T14:16:51 IST" duration-ms="16" status="PASS">
+    <test started-at="2022-10-13T14:28:14 IST" name="Default test" finished-at="2022-10-13T14:28:14 IST" duration-ms="90">
+      <class name="com.purna_data.testcases.purna_sample_selenium_test">
+        <test-method signature="testng()[pri:0, instance:com.purna_data.testcases.purna_sample_selenium_test@51399530]" started-at="2022-10-13T14:28:14 IST" name="testng" finished-at="2022-10-13T14:28:14 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sample -->
-      </class> <!-- com.purna_data.testcases.purna_sample_test -->
+        </test-method> <!-- testng -->
+      </class> <!-- com.purna_data.testcases.purna_sample_selenium_test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

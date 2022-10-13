@@ -1,6 +1,6 @@
 package com.purna_data.testcases;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 import com.purna_data.libraries.BaseClass;
 

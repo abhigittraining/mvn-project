@@ -15,4 +15,9 @@ public class purna_sample_selenium_test extends BaseClass{
 	public void selenium() {
 		System.out.println("selenium");
 	}
+	
+	@Test
+	public void java() {
+		System.out.println("java");
+	}
 }

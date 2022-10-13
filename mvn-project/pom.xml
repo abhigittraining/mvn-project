@@ -133,6 +133,7 @@
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.0.2</version>
         </plugin>
+<!--       
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.0</version>
@@ -146,6 +147,7 @@
 			</suiteXmlFiles>
 			</configuration>
         </plugin>
+-->
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>
@@ -184,12 +186,7 @@
 			<suiteXmlFile>testng_main_module.xml</suiteXmlFile>
 			</suiteXmlFiles>
 			</configuration>
-  		</plugin>  
-  		
-  		<plugin>
-          <artifactId>maven-project-info-reports-plugin</artifactId>
-          <version>3.0.0</version>
-        </plugin>
+  		</plugin>
 
       </plugins>
     </pluginManagement>

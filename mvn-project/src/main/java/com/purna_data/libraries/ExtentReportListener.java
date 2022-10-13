@@ -8,14 +8,12 @@ import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
@@ -23,7 +21,7 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-public class ExtentReportListener extends BaseClass implements ITestListener{
+public class ExtentReportListener extends BaseClass implements ITestListener {
 	private static final String OUTPUT_FOLDER = System.getProperty("user.dir") + "\\src\\test\\resources\\report\\";
 	private static final String FILE_NAME = "TestExecutionReport.html";
 
@@ -95,8 +93,8 @@ public class ExtentReportListener extends BaseClass implements ITestListener{
 	public synchronized void onTestFailure(ITestResult result) {
 		System.out.println((result.getMethod().getMethodName() + " failed!"));
 		try {
-			test.get().fail(result.getThrowable(),
-					MediaEntityBuilder.createScreenCaptureFromPath(getScreenshot(result.getMethod().getMethodName())).build());
+			test.get().fail(result.getThrowable(), MediaEntityBuilder
+					.createScreenCaptureFromPath(getScreenshot(result.getMethod().getMethodName())).build());
 		} catch (IOException e) {
 			System.err
 					.println("Exception thrown while updating test fail status " + Arrays.toString(e.getStackTrace()));
@@ -107,8 +105,8 @@ public class ExtentReportListener extends BaseClass implements ITestListener{
 	public synchronized void onTestSkipped(ITestResult result) {
 		System.out.println((result.getMethod().getMethodName() + " skipped!"));
 		try {
-			test.get().skip(result.getThrowable(),
-					MediaEntityBuilder.createScreenCaptureFromPath(getScreenshot(result.getMethod().getMethodName())).build());
+			test.get().skip(result.getThrowable(), MediaEntityBuilder
+					.createScreenCaptureFromPath(getScreenshot(result.getMethod().getMethodName())).build());
 		} catch (IOException e) {
 			System.err
 					.println("Exception thrown while updating test skip status " + Arrays.toString(e.getStackTrace()));
@@ -125,11 +123,11 @@ public class ExtentReportListener extends BaseClass implements ITestListener{
 		calendar.setTimeInMillis(millis);
 		return calendar.getTime();
 	}
-	
+
 	public String getScreenshot(String testcaseName) throws IOException {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		String currentDir = System.getProperty("user.dir");
-		String destPath = currentDir +"/src/test/resources/screenshot/"+testcaseName+".png";
+		String destPath = currentDir + "/src/test/resources/screenshot/" + testcaseName + ".png";
 		FileUtils.copyFile(scrFile, new File(destPath));
 		return destPath;
 	}

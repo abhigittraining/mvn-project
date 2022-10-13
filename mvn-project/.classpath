@@ -31,15 +31,8 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/abhishek/.p2/pool/plugins/org.testng_7.4.0.r202105021533.jar" sourcepath="C:/Users/abhishek/.p2/pool/plugins/org.testng.source_7.4.0.r202105021533.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/Users/abhishek/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar" sourcepath="C:/Users/abhishek/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
-			<attribute name="maven.groupId" value="org.testng"/>
-			<attribute name="maven.artifactId" value="testng"/>
-			<attribute name="maven.version" value="7.1.0"/>
-			<attribute name="maven.scope" value="test"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="C:/Driver/selenium-server-4.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Driver/FileUtiles-CommonIO/commons-io-2.11.0.jar"/>
+	<classpathentry kind="src" path="/purna_data_utility"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

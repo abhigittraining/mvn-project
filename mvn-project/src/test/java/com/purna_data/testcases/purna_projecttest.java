@@ -42,9 +42,10 @@ public class purna_projecttest extends BaseClass {
 
 	@Test(dataProvider = "getProjectData")
 	public void adding_new_project(String SR_NO, String PROJECT_CODE, String PROJECT_NAME, String REMARK,
-			String BUDGET_AMOUNT, String CUSTOMER_NAME) {
+			String BUDGET_AMOUNT, String CUSTOMER_NAME) throws InterruptedException {
 		utils.clickElement(driver, dashboardpage.link_main);
 		utils.clickElement(driver, dashboardpage.link_project);
+		Thread.sleep(300);
 		utils.clickElement(driver, projectdashboardpage.btn_addnewproject);
 		projectpage.txt_sr_no.clear();
 		projectpage.txt_sr_no.sendKeys(SR_NO);
@@ -52,6 +53,7 @@ public class purna_projecttest extends BaseClass {
 		projectpage.txt_project_name.sendKeys(PROJECT_NAME);
 		projectpage.txt_remark.sendKeys(REMARK);
 		projectpage.txt_budget_amount.sendKeys(BUDGET_AMOUNT);
+		Thread.sleep(200);
 		utils.doDropDownSelectByValue(projectpage.dropdown_cust_name, CUSTOMER_NAME);
 		projectpage.btn_save_projectdetails.click();
 		utils.syncElement(driver, null, "alertPresent");
@@ -64,7 +66,6 @@ public class purna_projecttest extends BaseClass {
 
 	@AfterMethod
 	public void closeBrowser() throws InterruptedException {
-		Thread.sleep(1000);
 		driver.quit();
 	}
 }

@@ -69,8 +69,7 @@ public class purna_suppliertest2 extends BaseClass {
 		utils.syncElement(driver, null, "alertPresent");
 		utils.handleAlert(driver).accept();
 		utils.clickElement(driver, supplierpage.btn_supplierdetails);
-		Assert.assertEquals(driver.findElement(By.xpath("//td[text()='" + suppliername + "']")).getText(),
-				suppliername);
+		Assert.assertEquals(driver.findElement(By.xpath("//td[text()='" + suppliername + "']")).getText(), suppliername);
 		driver.findElement(By.xpath("//a[@href='view_supplier.php?sr_no=" + vendorcode + "']")).click();
 		List<WebElement> txtbox_supplier_details = driver.findElements(By.xpath("//input[@readonly]"));
 		for (int i = 0; i < txtbox_supplier_details.size(); i++) {
@@ -86,7 +85,6 @@ public class purna_suppliertest2 extends BaseClass {
 
 	@AfterMethod
 	public void closeBrowser() throws InterruptedException {
-		Thread.sleep(1000);
 		driver.quit();
 	}
 }

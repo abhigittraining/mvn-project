@@ -1,17 +1,2081 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="28" passed="28" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-13T14:28:14 IST" name="Default suite" finished-at="2022-10-13T14:28:14 IST" duration-ms="90">
+  <suite started-at="2022-10-13T15:47:07 IST" name="Suite" finished-at="2022-10-13T15:51:13 IST" duration-ms="246469">
     <groups>
     </groups>
-    <test started-at="2022-10-13T14:28:14 IST" name="Default test" finished-at="2022-10-13T14:28:14 IST" duration-ms="90">
-      <class name="com.purna_data.testcases.purna_sample_selenium_test">
-        <test-method signature="testng()[pri:0, instance:com.purna_data.testcases.purna_sample_selenium_test@51399530]" started-at="2022-10-13T14:28:14 IST" name="testng" finished-at="2022-10-13T14:28:14 IST" duration-ms="16" status="PASS">
+    <test started-at="2022-10-13T15:47:07 IST" name="Test" finished-at="2022-10-13T15:51:13 IST" duration-ms="246469">
+      <class name="com.purna_data.testcases.purna_logintest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.purna_data.testcases.purna_logintest@fba92d3]" started-at="2022-10-13T15:47:07 IST" name="init" finished-at="2022-10-13T15:47:10 IST" duration-ms="3019" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testng -->
-      </class> <!-- com.purna_data.testcases.purna_sample_selenium_test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- init -->
+        <test-method signature="loginsuccess()[pri:-1, instance:com.purna_data.testcases.purna_logintest@fba92d3]" started-at="2022-10-13T15:47:10 IST" name="loginsuccess" finished-at="2022-10-13T15:47:11 IST" duration-ms="1477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginsuccess -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.purna_data.testcases.purna_logintest@fba92d3]" started-at="2022-10-13T15:47:11 IST" name="closebrowser" finished-at="2022-10-13T15:47:11 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.purna_data.testcases.purna_logintest@fba92d3]" started-at="2022-10-13T15:47:11 IST" name="init" finished-at="2022-10-13T15:47:13 IST" duration-ms="1978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginfail()[pri:0, instance:com.purna_data.testcases.purna_logintest@fba92d3]" started-at="2022-10-13T15:47:13 IST" name="loginfail" finished-at="2022-10-13T15:47:14 IST" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginfail -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.purna_data.testcases.purna_logintest@fba92d3]" started-at="2022-10-13T15:47:14 IST" name="closebrowser" finished-at="2022-10-13T15:47:14 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.purna_data.testcases.purna_logintest -->
+      <class name="com.purna_data.testcases.purna_projecttest">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.purna_data.testcases.purna_projecttest@21e360a]" started-at="2022-10-13T15:47:50 IST" name="login" finished-at="2022-10-13T15:47:53 IST" duration-ms="3015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adding_new_project(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.purna_data.testcases.purna_projecttest@21e360a]" started-at="2022-10-13T15:47:53 IST" name="adding_new_project" data-provider="getProjectData" finished-at="2022-10-13T15:47:58 IST" duration-ms="4609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10 HS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[House Project]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This is a house project]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5000000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[customer_1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_new_project -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.purna_data.testcases.purna_projecttest@21e360a]" started-at="2022-10-13T15:47:58 IST" name="closeBrowser" finished-at="2022-10-13T15:47:58 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.purna_data.testcases.purna_projecttest@21e360a]" started-at="2022-10-13T15:47:58 IST" name="login" finished-at="2022-10-13T15:48:02 IST" duration-ms="3623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adding_new_project(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.purna_data.testcases.purna_projecttest@21e360a]" started-at="2022-10-13T15:48:02 IST" name="adding_new_project" data-provider="getProjectData" finished-at="2022-10-13T15:48:07 IST" duration-ms="5236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BLD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Residential Building]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This is a residential project]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12803480]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[customer_4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_new_project -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.purna_data.testcases.purna_projecttest@21e360a]" started-at="2022-10-13T15:48:07 IST" name="closeBrowser" finished-at="2022-10-13T15:48:08 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.purna_data.testcases.purna_projecttest@21e360a]" started-at="2022-10-13T15:48:08 IST" name="login" finished-at="2022-10-13T15:48:11 IST" duration-ms="3041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adding_new_project(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.purna_data.testcases.purna_projecttest@21e360a]" started-at="2022-10-13T15:48:11 IST" name="adding_new_project" data-provider="getProjectData" finished-at="2022-10-13T15:48:15 IST" duration-ms="4721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[COMM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Commercial Building]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This is a commercial project]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[23586409]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[customer_3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_new_project -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.purna_data.testcases.purna_projecttest@21e360a]" started-at="2022-10-13T15:48:15 IST" name="closeBrowser" finished-at="2022-10-13T15:48:16 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.purna_data.testcases.purna_projecttest@21e360a]" started-at="2022-10-13T15:48:16 IST" name="login" finished-at="2022-10-13T15:48:19 IST" duration-ms="3219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adding_new_project(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.purna_data.testcases.purna_projecttest@21e360a]" started-at="2022-10-13T15:48:19 IST" name="adding_new_project" data-provider="getProjectData" finished-at="2022-10-13T15:48:24 IST" duration-ms="4853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MALL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mall]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This is a mall project]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[46832854]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[customer_2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_new_project -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.purna_data.testcases.purna_projecttest@21e360a]" started-at="2022-10-13T15:48:24 IST" name="closeBrowser" finished-at="2022-10-13T15:48:24 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.purna_data.testcases.purna_projecttest -->
+      <class name="com.purna_data.testcases.purna_suppliertest2">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:49:46 IST" name="login" finished-at="2022-10-13T15:49:49 IST" duration-ms="2954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adding_new_supplier(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:49:49 IST" name="adding_new_supplier" data-provider="getSupplierData" finished-at="2022-10-13T15:49:55 IST" duration-ms="5295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Paper Bag Manufactures]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7070707070]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kothrud Near City Pride]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[paper_bag_manufacturers@gmail]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Vikas]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3030303030]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[27AKJUH67HY5]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[AABBCC231]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Kotak Bank]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Pune Law College Road]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[8031503482]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[KOTAK258428]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_new_supplier -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:49:55 IST" name="closeBrowser" finished-at="2022-10-13T15:49:55 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:49:55 IST" name="login" finished-at="2022-10-13T15:49:58 IST" duration-ms="3479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adding_new_supplier(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:49:58 IST" name="adding_new_supplier" data-provider="getSupplierData" finished-at="2022-10-13T15:50:04 IST" duration-ms="5314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Steel Enterprises]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7744774477]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Karve Nagar Pune]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[steelenterprises@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9900990099]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[27AHDBCG787D]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[FFWW449W1]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[IBS Bank]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Tilak Road Pune]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[4450319202]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[IBS831582]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_new_supplier -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:50:04 IST" name="closeBrowser" finished-at="2022-10-13T15:50:04 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:50:04 IST" name="login" finished-at="2022-10-13T15:50:07 IST" duration-ms="3024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adding_new_supplier(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:50:07 IST" name="adding_new_supplier" data-provider="getSupplierData" finished-at="2022-10-13T15:50:12 IST" duration-ms="4709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cement House]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8031590315]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SB Road Pune]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[cementhouse@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Patel]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8016831588]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[27AIVND87JH6]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[SPFFCMEO1]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Fedral Bank]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Deccan Branch Pune]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[4823440337]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[FED83182]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_new_supplier -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:50:12 IST" name="closeBrowser" finished-at="2022-10-13T15:50:12 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:50:12 IST" name="login" finished-at="2022-10-13T15:50:15 IST" duration-ms="2837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adding_new_supplier(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:50:15 IST" name="adding_new_supplier" data-provider="getSupplierData" finished-at="2022-10-13T15:50:20 IST" duration-ms="5253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Raj Enterprises]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9764895430]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[BS Road]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[rajenterprises@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Raj]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[5318642580]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[27ASHVBG783H]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[DJV54DG8D]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Pune Bank]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Pune Branch]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[5201000250]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[PUNE12535]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_new_supplier -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:50:20 IST" name="closeBrowser" finished-at="2022-10-13T15:50:20 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:50:20 IST" name="login" finished-at="2022-10-13T15:50:23 IST" duration-ms="2872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adding_new_supplier(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:50:23 IST" name="adding_new_supplier" data-provider="getSupplierData" finished-at="2022-10-13T15:50:28 IST" duration-ms="4916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rohan Storage]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5002348347]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hill Road]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[rohanstorage@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Rohan]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8965456765]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[27YHD8JNG8YH]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[FHCNF98J4]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Mumbai Bank]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Mumbai Branch]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[5012803482]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[MUMBAI8524]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_new_supplier -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:50:28 IST" name="closeBrowser" finished-at="2022-10-13T15:50:28 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:50:28 IST" name="login" finished-at="2022-10-13T15:50:31 IST" duration-ms="3070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adding_new_supplier(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:50:31 IST" name="adding_new_supplier" data-provider="getSupplierData" finished-at="2022-10-13T15:50:37 IST" duration-ms="5347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Unique Stores]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7413480523]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Oxford Road]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[uniquestores@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[David]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[7799225588]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[27SUHD885522]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[FG854GRS8]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Surat Bank]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Surat Branch]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[5413028458]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[SURAT485585]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_new_supplier -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:50:37 IST" name="closeBrowser" finished-at="2022-10-13T15:50:37 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:50:37 IST" name="login" finished-at="2022-10-13T15:50:41 IST" duration-ms="3511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adding_new_supplier(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:50:41 IST" name="adding_new_supplier" data-provider="getSupplierData" finished-at="2022-10-13T15:50:46 IST" duration-ms="5195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Polymer Plastic]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7411477411]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MIDC Road Pune]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[polymerplastic@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[7899877899]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[27EDCVFRTGBN]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[QAZQAZQAZ]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Nashik Bank]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Nashik Branch]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[4563012574]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[NASHIK48827]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_new_supplier -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:50:46 IST" name="closeBrowser" finished-at="2022-10-13T15:50:46 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:50:46 IST" name="login" finished-at="2022-10-13T15:50:49 IST" duration-ms="3151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adding_new_supplier(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:50:49 IST" name="adding_new_supplier" data-provider="getSupplierData" finished-at="2022-10-13T15:50:55 IST" duration-ms="5714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Agri Product]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7302158324]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[City Road]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[agriproduct@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Agriculture]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8888888888]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[27FGVNGIJMKE]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[11Q3ED96TY]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Lonavala Bank]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Lonavala Branch]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[4603158248]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[LONAVALA48215]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_new_supplier -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:50:55 IST" name="closeBrowser" finished-at="2022-10-13T15:50:55 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:50:55 IST" name="login" finished-at="2022-10-13T15:50:59 IST" duration-ms="3379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adding_new_supplier(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:50:59 IST" name="adding_new_supplier" data-provider="getSupplierData" finished-at="2022-10-13T15:51:04 IST" duration-ms="5904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Paint Supplier]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4883150248]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GT Road]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[paintsupplier@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Paint]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9292148025]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[27AIBM5524JK]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[553FHR7G9]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[PCMC Bank]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[PCMC Branch]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2231057801]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[PCMC74812]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_new_supplier -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:51:04 IST" name="closeBrowser" finished-at="2022-10-13T15:51:05 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:51:05 IST" name="login" finished-at="2022-10-13T15:51:08 IST" duration-ms="3129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adding_new_supplier(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:51:08 IST" name="adding_new_supplier" data-provider="getSupplierData" finished-at="2022-10-13T15:51:13 IST" duration-ms="4912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zenotech Laboratories Limited]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8210325840]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pune Mumbai Road]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[zenotech@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Zenotech]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9903258104]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[27FHCN6746HN]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[DPLKK67G5]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Satara Bank]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Satara Branch]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2011023012]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[SATARA50317]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_new_supplier -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.purna_data.testcases.purna_suppliertest2@74751b3]" started-at="2022-10-13T15:51:13 IST" name="closeBrowser" finished-at="2022-10-13T15:51:13 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.purna_data.testcases.purna_suppliertest2 -->
+      <class name="com.purna_data.testcases.purna_customertest">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.purna_data.testcases.purna_customertest@7bd4937b]" started-at="2022-10-13T15:47:15 IST" name="login" finished-at="2022-10-13T15:47:18 IST" duration-ms="2983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adding_new_customer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.purna_data.testcases.purna_customertest@7bd4937b]" started-at="2022-10-13T15:47:18 IST" name="adding_new_customer" data-provider="getCustomerData" finished-at="2022-10-13T15:47:23 IST" duration-ms="5250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[customer_1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6719034005]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abc block no 1 pune]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abc block no 1 pune]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[customer_1@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[cust_1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2103794805]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[GST_NO_123456]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[PAN_NO_AA1122BB]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[customer_1_id_1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_new_customer -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.purna_data.testcases.purna_customertest@7bd4937b]" started-at="2022-10-13T15:47:23 IST" name="closeBrowser" finished-at="2022-10-13T15:47:24 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.purna_data.testcases.purna_customertest@7bd4937b]" started-at="2022-10-13T15:47:24 IST" name="login" finished-at="2022-10-13T15:47:27 IST" duration-ms="3154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adding_new_customer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.purna_data.testcases.purna_customertest@7bd4937b]" started-at="2022-10-13T15:47:27 IST" name="adding_new_customer" data-provider="getCustomerData" finished-at="2022-10-13T15:47:32 IST" duration-ms="5253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[customer_2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3400597205]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sector no 1 main road pune]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sector no 1 main road pune]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[customer_2@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[cust_2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[8709731520]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[GST_NO_348109]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[PAN_NO_SR9438FY]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[customer_2_id_2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_new_customer -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.purna_data.testcases.purna_customertest@7bd4937b]" started-at="2022-10-13T15:47:32 IST" name="closeBrowser" finished-at="2022-10-13T15:47:32 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.purna_data.testcases.purna_customertest@7bd4937b]" started-at="2022-10-13T15:47:32 IST" name="login" finished-at="2022-10-13T15:47:35 IST" duration-ms="2952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adding_new_customer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.purna_data.testcases.purna_customertest@7bd4937b]" started-at="2022-10-13T15:47:35 IST" name="adding_new_customer" data-provider="getCustomerData" finished-at="2022-10-13T15:47:41 IST" duration-ms="6047" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[customer_3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3480141204]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[survey no 3 hill road pune]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[survey no 3 hill road pune]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[customer_3@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[cust_3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9797003004]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[GST_NO_304605]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[PAN_NO_05FD80BG]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[customer_3_id_3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_new_customer -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.purna_data.testcases.purna_customertest@7bd4937b]" started-at="2022-10-13T15:47:41 IST" name="closeBrowser" finished-at="2022-10-13T15:47:42 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.purna_data.testcases.purna_customertest@7bd4937b]" started-at="2022-10-13T15:47:42 IST" name="login" finished-at="2022-10-13T15:47:45 IST" duration-ms="2957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adding_new_customer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.purna_data.testcases.purna_customertest@7bd4937b]" started-at="2022-10-13T15:47:45 IST" name="adding_new_customer" data-provider="getCustomerData" finished-at="2022-10-13T15:47:50 IST" duration-ms="5475" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[customer_4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8800648234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lane no 9 sector no 10 norht road pune]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[lane no 9 sector no 10 norht road pune]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[customer_4@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[cust_4]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[8080349799]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[GST_NO_003426]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[PAN_NO_55TS050D]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[customer_4_id_4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_new_customer -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.purna_data.testcases.purna_customertest@7bd4937b]" started-at="2022-10-13T15:47:50 IST" name="closeBrowser" finished-at="2022-10-13T15:47:50 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.purna_data.testcases.purna_customertest -->
+      <class name="com.purna_data.testcases.purna_employeetest">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.purna_data.testcases.purna_employeetest@5ba3f27a]" started-at="2022-10-13T15:48:24 IST" name="login" finished-at="2022-10-13T15:48:27 IST" duration-ms="3222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adding_new_employee(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.purna_data.testcases.purna_employeetest@5ba3f27a]" started-at="2022-10-13T15:48:27 IST" name="adding_new_employee" data-provider="getEmployeeData" finished-at="2022-10-13T15:48:36 IST" duration-ms="8364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[arun]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01012022]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[purchases]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[jr. purchase assistant]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1010101010]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2020202020]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[arun_pan_no_123]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[arun@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[gandhi nagar]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[pune]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[20-Nov-1990]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[AB+]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[gandhi nagar pune]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[PASSPORT_123]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[emp_340]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[ICICI Bank]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[gandhi nagar pune]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[2045654625]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[ABC025480]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[300]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_new_employee -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.purna_data.testcases.purna_employeetest@5ba3f27a]" started-at="2022-10-13T15:48:36 IST" name="closeBrowser" finished-at="2022-10-13T15:48:36 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.purna_data.testcases.purna_employeetest@5ba3f27a]" started-at="2022-10-13T15:48:36 IST" name="login" finished-at="2022-10-13T15:48:39 IST" duration-ms="3150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adding_new_employee(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.purna_data.testcases.purna_employeetest@5ba3f27a]" started-at="2022-10-13T15:48:39 IST" name="adding_new_employee" data-provider="getEmployeeData" finished-at="2022-10-13T15:48:47 IST" duration-ms="8156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dilip]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[04022021]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[purchases]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[purchase assistant]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8080808080]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1516151615]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[dilip_pan_no_852]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[dilip@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[laxmi nagar]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[pune]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[15-May-1989]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[B+]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[laxmi nagar pune]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[PASSPORT_946]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[emp_604]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[AXIS Bank]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[laxmi nagar pune]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[3051934853]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[AXIS81067]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_new_employee -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.purna_data.testcases.purna_employeetest@5ba3f27a]" started-at="2022-10-13T15:48:47 IST" name="closeBrowser" finished-at="2022-10-13T15:48:48 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.purna_data.testcases.purna_employeetest@5ba3f27a]" started-at="2022-10-13T15:48:48 IST" name="login" finished-at="2022-10-13T15:48:50 IST" duration-ms="2947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adding_new_employee(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.purna_data.testcases.purna_employeetest@5ba3f27a]" started-at="2022-10-13T15:48:50 IST" name="adding_new_employee" data-provider="getEmployeeData" finished-at="2022-10-13T15:48:59 IST" duration-ms="8210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[suraj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[03062020]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sales]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[jr. sales assistant]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4040404040]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1970348067]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[suraj_pan_no_630]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[suraj@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[karve nagar]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[pune]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[30-Aug-1992]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[O+]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[karve nagar pune]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[PASSPORT_819]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[emp_843]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[SBI Bank]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[karve nagar pune]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[8067034805]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[SBI60483]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[350]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_new_employee -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.purna_data.testcases.purna_employeetest@5ba3f27a]" started-at="2022-10-13T15:48:59 IST" name="closeBrowser" finished-at="2022-10-13T15:48:59 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.purna_data.testcases.purna_employeetest@5ba3f27a]" started-at="2022-10-13T15:48:59 IST" name="login" finished-at="2022-10-13T15:49:02 IST" duration-ms="3238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adding_new_employee(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.purna_data.testcases.purna_employeetest@5ba3f27a]" started-at="2022-10-13T15:49:02 IST" name="adding_new_employee" data-provider="getEmployeeData" finished-at="2022-10-13T15:49:10 IST" duration-ms="7975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[karan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09092019]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[purchases]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6050605060]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1213141516]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[karan_pan_no_787]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[karan@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[station road]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[pune]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[11-Apr-1995]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[A+]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[station road pune]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[PASSPORT_916]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[emp_248]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[IDFC Bank]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[station road pune]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[6048315896]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[IDFC83511]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[800]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_new_employee -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.purna_data.testcases.purna_employeetest@5ba3f27a]" started-at="2022-10-13T15:49:10 IST" name="closeBrowser" finished-at="2022-10-13T15:49:10 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.purna_data.testcases.purna_employeetest -->
+      <class name="com.purna_data.testcases.purna_inventorytest">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.purna_data.testcases.purna_inventorytest@58d75e99]" started-at="2022-10-13T15:49:11 IST" name="login" finished-at="2022-10-13T15:49:14 IST" duration-ms="3762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adding_new_inventory(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.purna_data.testcases.purna_inventorytest@58d75e99]" started-at="2022-10-13T15:49:14 IST" name="adding_new_inventory" data-provider="getInventoryData" finished-at="2022-10-13T15:49:19 IST" duration-ms="4982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pp_123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[paper pouch]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Numbers]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[paper pouch 123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[101]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[111]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[paper pouch for medicine]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_new_inventory -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.purna_data.testcases.purna_inventorytest@58d75e99]" started-at="2022-10-13T15:49:19 IST" name="closeBrowser" finished-at="2022-10-13T15:49:20 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.purna_data.testcases.purna_inventorytest@58d75e99]" started-at="2022-10-13T15:49:20 IST" name="login" finished-at="2022-10-13T15:49:23 IST" duration-ms="2954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adding_new_inventory(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.purna_data.testcases.purna_inventorytest@58d75e99]" started-at="2022-10-13T15:49:23 IST" name="adding_new_inventory" data-provider="getInventoryData" finished-at="2022-10-13T15:49:28 IST" duration-ms="5249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cb_small_345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cloth bag small]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[KG]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[cloth bag 345]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[654]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[232]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[cloth bag for grocery ]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_new_inventory -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.purna_data.testcases.purna_inventorytest@58d75e99]" started-at="2022-10-13T15:49:28 IST" name="closeBrowser" finished-at="2022-10-13T15:49:28 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.purna_data.testcases.purna_inventorytest@58d75e99]" started-at="2022-10-13T15:49:28 IST" name="login" finished-at="2022-10-13T15:49:31 IST" duration-ms="3294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adding_new_inventory(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.purna_data.testcases.purna_inventorytest@58d75e99]" started-at="2022-10-13T15:49:31 IST" name="adding_new_inventory" data-provider="getInventoryData" finished-at="2022-10-13T15:49:37 IST" duration-ms="5162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cb_medium_524]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cloth bag medium]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[KG]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[cloth bag 524]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[352]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[253]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[cloth bag for grocery ]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[70]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_new_inventory -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.purna_data.testcases.purna_inventorytest@58d75e99]" started-at="2022-10-13T15:49:37 IST" name="closeBrowser" finished-at="2022-10-13T15:49:37 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.purna_data.testcases.purna_inventorytest@58d75e99]" started-at="2022-10-13T15:49:37 IST" name="login" finished-at="2022-10-13T15:49:40 IST" duration-ms="2954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adding_new_inventory(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.purna_data.testcases.purna_inventorytest@58d75e99]" started-at="2022-10-13T15:49:40 IST" name="adding_new_inventory" data-provider="getInventoryData" finished-at="2022-10-13T15:49:46 IST" duration-ms="6065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cb_big_359]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cloth bag big]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[KG]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[cloth bag 543]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[234]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[674]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[cloth bag for grocery ]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[101]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adding_new_inventory -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.purna_data.testcases.purna_inventorytest@58d75e99]" started-at="2022-10-13T15:49:46 IST" name="closeBrowser" finished-at="2022-10-13T15:49:46 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.purna_data.testcases.purna_inventorytest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

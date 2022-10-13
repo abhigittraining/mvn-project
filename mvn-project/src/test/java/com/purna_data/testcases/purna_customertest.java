@@ -43,10 +43,13 @@ public class purna_customertest extends BaseClass {
 	@Test(dataProvider = "getCustomerData")
 	public void adding_new_customer(String CUSTOMER_NO, String CUSTOMER_NAME, String CONTACT_NO, String BILLING_ADDRESS,
 			String SHIPPING_ADDRESS, String E_MAIL_ID, String CONTACT_PERSON, String CONTACT, String GST_NO,
-			String PAN_NO, String VENDOR_CODE) {
+			String PAN_NO, String VENDOR_CODE) throws InterruptedException {
 		utils.clickElement(driver, dashboardpage.link_main);
 		utils.clickElement(driver, dashboardpage.link_customer);
-		utils.clickElement(driver, customerdashboardpage.btn_addnewcustomer);
+		Thread.sleep(300);
+		utils.clickElement(driver, customerdashboardpage.btn_addnewcustomer);	
+		utils.clickElement(driver, customerpage.txt_customerno);
+		customerpage.txt_customerno.click();
 		customerpage.txt_customerno.clear();
 		customerpage.txt_customerno.sendKeys(CUSTOMER_NO);
 		customerpage.txt_customer_name.sendKeys(CUSTOMER_NAME);
@@ -71,7 +74,6 @@ public class purna_customertest extends BaseClass {
 
 	@AfterMethod
 	public void closeBrowser() throws InterruptedException {
-		Thread.sleep(1000);
 		driver.quit();
 	}
 }

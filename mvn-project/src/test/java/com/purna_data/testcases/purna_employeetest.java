@@ -51,6 +51,7 @@ public class purna_employeetest extends BaseClass {
 			throws InterruptedException {
 		utils.clickElement(driver, dashboardpage.link_main);
 		utils.clickElement(driver, dashboardpage.link_employee);
+		Thread.sleep(300);
 		utils.clickElement(driver, empdashboardpage.btn_addnewemp);
 		emppage.txt_sr_no.clear();
 		emppage.txt_sr_no.sendKeys(SR_NO);

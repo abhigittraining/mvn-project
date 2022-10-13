@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.purna_data.testcases.purna_inventorytest">
+        <methods>
+          <include name="login"/>
+          <include name="adding_new_inventory"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.purna_data.testcases.purna_inventorytest -->
+      <class name="com.purna_data.testcases.purna_projecttest">
+        <methods>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+          <include name="adding_new_project"/>
+        </methods>
+      </class> <!-- com.purna_data.testcases.purna_projecttest -->
+      <class name="com.purna_data.testcases.purna_logintest">
+        <methods>
+          <include name="loginfail"/>
+          <include name="loginsuccess"/>
+          <include name="init"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.purna_data.testcases.purna_logintest -->
+      <class name="com.purna_data.testcases.purna_suppliertest">
+        <methods>
+          <include name="login"/>
+          <include name="adding_new_supplier"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.purna_data.testcases.purna_suppliertest -->
+      <class name="com.purna_data.testcases.purna_customertest">
+        <methods>
+          <include name="adding_new_customer"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.purna_data.testcases.purna_customertest -->
+      <class name="com.purna_data.testcases.purna_employeetest">
+        <methods>
+          <include name="login"/>
+          <include name="adding_new_employee"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.purna_data.testcases.purna_employeetest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -10,4 +10,9 @@ public class purna_sample_test extends BaseClass{
 	public void sample() {
 		System.out.println("hello");
 	}
+	
+	@Test
+	public void sample1() {
+		System.out.println("selenium");
+	}
 }

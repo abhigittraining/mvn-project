@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
 public class BaseClass {
 	public static WebDriver driver;
 	public static Properties prop;
-	public static EventFiringWebDriver e_driver;
+//	public static EventFiringWebDriver e_driver;
 //	public static WebEventListener eventlistener;
 	
 	private static Logger logger = LoggerFactory.getLogger(BaseClass.class);	

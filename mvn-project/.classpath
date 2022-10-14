@@ -21,7 +21,6 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<attributes>
-			<attribute name="module" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
@@ -32,23 +31,5 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="src" path="/purna_data_utility"/>
-	<classpathentry kind="lib" path="C:/Users/abhishek/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar" sourcepath="C:/Users/abhishek/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="com.aventstack"/>
-			<attribute name="maven.artifactId" value="extentreports"/>
-			<attribute name="maven.version" value="3.1.5"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/abhishek/.m2/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.jar" sourcepath="C:/Users/abhishek/.m2/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="org.apache.poi"/>
-			<attribute name="maven.artifactId" value="poi-ooxml"/>
-			<attribute name="maven.version" value="3.9"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

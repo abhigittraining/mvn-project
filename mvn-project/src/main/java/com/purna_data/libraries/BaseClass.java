@@ -15,8 +15,8 @@ import org.slf4j.LoggerFactory;
 public class BaseClass {
 	public static WebDriver driver;
 	public static Properties prop;
-//	public static EventFiringWebDriver e_driver;
-//	public static WebEventListener eventlistener;
+	public static EventFiringWebDriver e_driver;
+	public static WebEventListener eventlistener;
 	
 	private static Logger logger = LoggerFactory.getLogger(BaseClass.class);	
 	public BaseClass(){
@@ -45,10 +45,10 @@ public class BaseClass {
 			driver = new FirefoxDriver();
 			logger.info("Launching Firefox browser");
 		}	
-/*		e_driver = new EventFiringWebDriver(driver);
+		e_driver = new EventFiringWebDriver(driver);
 		eventlistener = new WebEventListener();
 		e_driver.register(eventlistener);
-		driver = e_driver;									*/
+		driver = e_driver;									
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(ExcelUtils.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);

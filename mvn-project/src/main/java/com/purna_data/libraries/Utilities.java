@@ -26,19 +26,19 @@ public class Utilities {
 		try {
 			switch (conditionForWait) {
 			case "ToVisible":
-				new WebDriverWait(driver, Duration.ofSeconds(30)).until(ExpectedConditions.visibilityOf(element));
+				new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOf(element));
 				break;
 
 			case "ToClickable":
-				new WebDriverWait(driver, Duration.ofSeconds(30)).until(ExpectedConditions.elementToBeClickable(element));
+				new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeClickable(element));
 				break;
 
 			case "ToInvisible":
-				new WebDriverWait(driver, Duration.ofSeconds(30)).until(ExpectedConditions.invisibilityOf(element));
+				new WebDriverWait(driver, 30).until(ExpectedConditions.invisibilityOf(element));
 				break;
 
 			case "alertPresent":
-				new WebDriverWait(driver, Duration.ofSeconds(30)).until(ExpectedConditions.alertIsPresent());
+				new WebDriverWait(driver, 30).until(ExpectedConditions.alertIsPresent());
 
 			default:
 				throw new Exception("Invalid Condition " + conditionForWait);
@@ -52,11 +52,11 @@ public class Utilities {
 		try {
 			switch (conditionForWait) {
 			case "ToVisible":
-				new WebDriverWait(driver, Duration.ofSeconds(30)).until(ExpectedConditions.visibilityOfAllElements(elementsList));
+				new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOfAllElements(elementsList));
 				break;
 
 			case "ToInvisible":
-				new WebDriverWait(driver, Duration.ofSeconds(30)).until(ExpectedConditions.invisibilityOfAllElements(elementsList));
+				new WebDriverWait(driver, 30).until(ExpectedConditions.invisibilityOfAllElements(elementsList));
 				break;
 
 			default:

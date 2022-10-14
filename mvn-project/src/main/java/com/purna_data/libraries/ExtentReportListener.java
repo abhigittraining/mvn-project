@@ -21,7 +21,7 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-public class ExtentReportListener extends BaseClass /*implements ITestListener*/ {
+public class ExtentReportListener extends BaseClass implements ITestListener {
 	private static final String OUTPUT_FOLDER = System.getProperty("user.dir") + "\\src\\test\\resources\\report\\";
 	private static final String FILE_NAME = "TestExecutionReport.html";
 

@@ -59,15 +59,14 @@
 				<groupId>org.testng</groupId>
 				<artifactId>testng</artifactId>
 				<version>7.4.0</version>
-				<scope>test</scope>
+				<scope>compile</scope>
 			</dependency>
 
 			<dependency>
 				<groupId>ch.qos.logback</groupId>
 				<artifactId>logback-classic</artifactId>
 				<version>1.2.10</version>
-			<!--	<scope>test</scope>   -->
-				<scope>compile</scope>
+				<scope>test</scope>
 			</dependency>
 
 			<dependency>
